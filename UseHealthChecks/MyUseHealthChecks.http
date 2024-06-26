@@ -1,0 +1,6 @@
+@MyUseHealthChecks_HostAddress = http://localhost:5267
+
+GET {{MyUseHealthChecks_HostAddress}}/employees/
+Accept: application/json
+
+###
